@@ -15,8 +15,8 @@ class ChronosRetroTacho:
         self.root.resizable(False, False)
 
         # Dane konfiguracyjne i stan tachografu
-        self.driver1_name = "JAN GŁOWACZ"
-        self.driver2_name = "JULIA GŁOWACZ"
+        self.driver1_name = "DRIVER 1"
+        self.driver2_name = "DRIVER 2"
         self.current_driver = 1  # 1 lub 2
         self.active_mode = "ODPOCZYNEK"  # JAZDA, PRACA, ODPOCZYNEK
         
