@@ -8,7 +8,7 @@ The application works directly with the telemetry server, automatically distingu
 
 ## 🚀 New in version 1.0.0
 
-* **Digital Tacho Printer (24-Hour Print):** Added functionality for generating full daily reports, broken down by driver, continuous driving time, daily driving time, and resting time. Data is printed in the console and saved to the text file `wydruk_tacho.txt`. * **Multi-Driver System:** Full support for two driver slots (Slot 1: Jan Głowacz, Slot 2: Julia Głowacz) with independent resetting of drive cycle counters after card change.
+* **Digital Tacho Printer (24-Hour Print):** Added functionality for generating full daily reports, broken down by driver, continuous driving time, daily driving time, and resting time. Data is printed in the console and saved to the text file `wydruk_tacho.txt`. * **Multi-Driver System:** Full support for two driver slots (Slot 1: [DRIVER 1], Slot 2: [DRIVER 2] with independent resetting of drive cycle counters after card change.
 * **New Pixel Interface (VDO Style):** The LCD display layout (Tkinter Canvas) has been redesigned. Text has improved margins (X=15) and the `Consolas` font, which prevents text edges from being cut off and perfectly reflects the actual device.
 * **Official Telemetry Support v3.2.5:** Full integration with the latest, stable version of the Funbit telemetry server.
 
